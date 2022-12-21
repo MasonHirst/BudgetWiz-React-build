@@ -1,38 +1,88 @@
-.App {
-  text-align: center;
+* {
+   box-sizing: border-box;
+   font-family: 'Roboto Mono', monospace;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+   color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+
+
+
+header {
+   width: 100%;
+   height: 75px;
+   background-color: rgb(55, 55, 55);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 7%;
+   padding-left: 6%;
+   padding-right: 6%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.login-form-div {
+   background-color: rgb(90, 180, 185);
+   border-radius: 18px;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 30%;
+   height: 275px;
+   margin-left: 35%;
+   margin-top: 130px;
 }
 
-.App-link {
-  color: #61dafb;
+.create-acc-div {
+   background-color: rgb(90, 180, 185);
+   border-radius: 18px;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 30%;
+   padding: 25px;
+   margin-left: 35%;
+   margin-top: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+.button-35 {
+   align-items: center;
+   background-color: rgb(238, 109, 49);
+   border-radius: 12px;
+   box-shadow: transparent 0 0 0 3px,rgba(18, 18, 18, .1) 0 6px 20px;
+   box-sizing: border-box;
+   color: white;
+   cursor: pointer;
+   display: inline-flex;
+   font-family: Inter,sans-serif;
+   font-size: 1.1rem;
+   font-weight: 600;
+   justify-content: center;
+   line-height: 1;
+   margin: 0;
+   outline: none;
+   padding: 1rem 1.2rem;
+   text-align: center;
+   text-decoration: none;
+   transition: box-shadow .2s,-webkit-box-shadow .2s;
+   white-space: nowrap;
+   border: 0;
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+   height: 40px;
+   width: 150px;
+ }
+ .button-35:hover {
+   box-shadow: #121212 0 0 0 2px, transparent 0 0 0 0;
+ }
